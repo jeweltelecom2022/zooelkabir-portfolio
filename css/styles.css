@@ -49,3 +49,35 @@ nav .menu a{
   color: #474747;
   text-decoration: none;
 }
+#banner{
+  display: flex;
+  margin: 47px 38px 0px 230px;
+  justify-content: space-between;
+  align-items: center;
+}
+#banner .banner-content{
+  max-width: 585px;
+}
+#banner .banner-content h2{
+  font-size: 45px;
+  font-weight:600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+#banner .banner-content h1{
+  font-size: 69px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+#banner .banner-content p{
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+#banner .banner-image img{
+  max-width: 585px;
+  /* jodi amra kono content ke nicher diker default gap bad dite chai tahole vertical align center use korbo */
+  vertical-align: middle;
+}
