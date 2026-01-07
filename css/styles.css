@@ -19,7 +19,7 @@
     border: none;
     border-radius: 5px;
     padding: 18px 35px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: white;
     cursor: pointer;
@@ -44,7 +44,7 @@
 header{
     background-color: #FFF8F3;
     background: url("../images/developer.png"), url("../images/header_bg.png");
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     padding-top: 50px;
     background-repeat: no-repeat;
 }
@@ -154,3 +154,84 @@ nav .menu a{
   line-height: 28px;
   color: #757575;
 }
+#resume{
+  padding-top: 130px;
+}
+
+#resume .resume-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 24px;
+}
+.resume-container hr{
+  margin: 30px 0px;
+}
+.resume-container .section-title{
+  font-size: 30px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.resume-card, .experience-card{
+  /* max-width: 511px; */
+  margin-right: 47px;
+}
+.resume-card .card-title, .experience-card .card-title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #474747;
+}
+.resume-card .card-info, .experience-card .card-info{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #757575;
+}
+.resume-card .card-description, .experience-card .card-description{
+  font-size: 16px;
+  line-height: 28px; 
+  color: #757575;
+}
+.download-button{
+  max-width: 200px;
+  margin: 50px auto 113px;
+}
+footer{
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+footer .footer-container{
+  width: 71%;
+  max-width: 1140px;
+  display: flex;
+  gap: 116px;
+  margin: 0 auto;
+}
+footer .footer-container .socials{
+  max-width: 562px;
+} 
+.footer-container h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+} 
+.footer-container .socials p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+} 
+.footer-container .icons a{
+  margin-right: 24px;
+}
+.footer-container form input[type="text"], .footer-container form input[type="email"],.footer-container form textarea{
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+}
+
